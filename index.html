@@ -14,27 +14,119 @@
     <title>task 2</title>
   </head>
   <body>
+    <!-- header start -->
     <header>
       <div class="header-container">
-        <div class="header-text">
+        <div class="header-text text-container">
           <i class="fa-solid fa-bars"></i>
-          <h5>კატალოგი</h5>
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
-          <input class="search" type="text" name="text" id="text" />
-          <label for="text"></label>
+
+          <div class="search">
+            <input
+              class="search"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="ვინც ეძებს,ის პოულობს"
+            />
+            <label for="text"></label>
+            <div class="absolute">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+
           <i class="fa-sharp fa-solid fa-circle-user"></i>
-          <h5>ანგარიში</h5>
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
-          <i class="fa-sharp fa-solid fa-basket-shopping"></i>
-          <h5>კალათა</h5>
-          <i class="fa-sharp fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-basket-shopping"></i>
         </div>
-       
       </div>
-       <p>საკონტაქტო ინფორმაცია</p>
+      <p class="text-container contact-info">საკონტაქტო ინფორმაცია</p>
     </header>
-    <section>
-        <h1>დომინო ისთ ფოინთი</h1>
+    <!-- header end -->
+
+    <!-- section start -->
+    <section class="text-container">
+      <h2 class="east-point">დომინო ისთ ფოინთი</h2>
+      <div class="main-box">
+        <div class="left-box">
+          <div class="left-box-text">
+            <h2>ინფორმაცია მაღაზიის შესახებ</h2>
+            <div class="left-box-info">
+              <div class="location">
+                <div>
+                  <img src="images/location.png" alt="location" />
+                </div>
+                <p>მისამართი:</p>
+                <p>თვალჭრელიძის #2, EAST POINT</p>
+              </div>
+              <div class="hours">
+                <div>
+                  <img src="images/hours.png" alt="hours" />
+                </div>
+                <p>სამუშაო საათები:</p>
+                <p>ყოველდღე - 9:00 - 22:00</p>
+              </div>
+              <div class="call">
+                <div>
+                  <img src="images/call.png" alt="call" />
+                </div>
+                <p>ტელეფონი:</p>
+
+                <ul>
+                  <li>ჰიპერმარკეტი</li>
+                  <li>
+                    <a href="tel:0322560016"> 032 2 56 00 16 </a>
+                  </li>
+                  <li>ონლაინ მაღაზია</li>
+                  <li>
+                    <a href="tel:0322505050"> 032 2 50 50 50 (2) </a>
+                  </li>
+                  <li>კორპორატიული და საბითუმო</li>
+                  <li>
+                    <a href="tel:0322505050"> 032 2 50 50 50 (3) </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="email">
+                <div>
+                  <img src="images/email.png" alt="email" />
+                </div>
+                <p>ელ.ფოსტა:</p>
+
+                <ul>
+                  <li>ჰიპერმარკეტი</li>
+                  <li>
+                    <a href="mailto: info@domino.com.ge">info@domino.com.ge</a>
+                  </li>
+                  <li>ონლაინ მაღაზია</li>
+                  <li>
+                    <a href="mailto: ecomerce@domino.com.ge"
+                      >ecomerce@domino.com.ge</a
+                    >
+                  </li>
+                  <li>კორპორატიული დეპარტამენტი</li>
+                  <li>
+                    <a href="mailto: sales@domino.com.ge"
+                      >sales@domino.com.ge</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-box">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.3626101693653!2d44.89782051543534!3d41.69110717923737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440de24811ead3%3A0xea0eeb133cdc7287!2z4YOT4YOd4YOb4YOY4YOc4YOd!5e0!3m2!1ska!2sge!4v1667148352316!5m2!1ska!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </section>
   </body>
 </html>
